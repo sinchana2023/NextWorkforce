@@ -1,6 +1,6 @@
 # Functional specification: agent governance and security
 
-**Product:** HR portal (Frappe HRMS + `my_hr_app`)
+**Product:** NextWorkforce (Frappe HRMS + `my_hr_app`)
 **Branch:** `dhruvbhavsar`
 **Status:** Matches the behavior implemented on this branch
 

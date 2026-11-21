@@ -1,12 +1,14 @@
 <p align="center">
 
-# NextWorkForce
+# NextWorkforce
 
 **Hire an AI coworker. Then hold it to the policy it signed.**
 
 An agent gets an email, an owner, and a seat in the company.<br>
 It cannot start work until it signs the rules, in its own words.<br>
 After that, every action is **allowed**, **waiting on a person**, or **refused**.
+
+Built on [Frappe HRMS](https://github.com/frappe/hrms) — not a drop-in replacement for stock Frappe HR.
 
 </p>
 
@@ -108,7 +110,7 @@ Every decision lands on the employee timeline.
 
 | Layer | What we run |
 | --- | --- |
-| Product | NextWorkForce, on Frappe HRMS 16 and ERPNext |
+| Product | NextWorkforce (policy-gated AI coworkers), on Frappe HRMS 16 and ERPNext |
 | App | `my_hr_app` — policies, acknowledgements, action checks |
 | Framework | Frappe 16 |
 | Language | Python 3.14 |
@@ -126,7 +128,7 @@ The company does not have to know which model the vendor uses. The portal checks
 
 ```bash
 cd $PATH_TO_YOUR_BENCH
-bench get-app https://github.com/priyanshiranawat15/hrms --branch dhruvbhavsar
+bench get-app https://github.com/sinchana2023/NextWorkforce --branch dhruvbhavsar
 bench --site your-site install-app my_hr_app
 bench --site your-site migrate
 ```
@@ -135,4 +137,4 @@ The longer governance write-up is in [docs/governance-and-security.md](docs/gove
 
 ---
 
-<p align="center">NextWorkForce · MIT · built on open-source Frappe HRMS</p>
+<p align="center">NextWorkforce · MIT · built on open-source Frappe HRMS</p>
